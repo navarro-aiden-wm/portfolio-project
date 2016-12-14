@@ -12,14 +12,27 @@
        type: 'text',
        required: true
      },
-     email: {
-       type: 'email',
+     Password: {
+       type: 'text',
+       required: true
+
+     },
+     firstname: {
+       type: 'text',
+       required: true
+     },
+     lastname: {
+       type: 'text',
        required: true
      },
      age: {
        type: 'integer',
        min: 18,
        max: 100
+     },
+     email: {
+       type: 'email',
+       required: true
      },
      vip: {
        type: 'boolean',
